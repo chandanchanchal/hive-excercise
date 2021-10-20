@@ -29,18 +29,7 @@ timestamp - as explained before
 
 5. What is the frequency of 'sms', 'calls' by each day of week. What about by hour of day?
 
-6. Make a UDF as java file for hive (by extending UDF class I guess) to convert timestamp in calls data to something that a db like mysql can understand clearly and then use that udf in a query
+6. Find which users sent at least 10 more messages in the month of Jan than in the month of Feb.
 
-7. Find which users sent at least 10 more messages in the month of Jan than in the month of Feb.
+7. Find which users sent smses but did not make calls (can you use NOT IN, how to replace NOT IN by JOINS)
 
-8. Find which users sent smses but did not make calls (can you use NOT IN, how to replace NOT IN by JOINS)
-
-9. What is the difference between managed and external tables? When to use what? - added in the folder MoreInformation.
-    
-10. What does describe function do? - added in the folder MoreInformation.
-
-11. What does collect_set standard aggregate function does? - added in the folder MoreInformation.
-
-12. Types of File formats in hive - added in the folder MoreInformation.
-
-13. What is the difference between truncating a table and deleting all records from it in hive? - added in the folder MoreInformation.
